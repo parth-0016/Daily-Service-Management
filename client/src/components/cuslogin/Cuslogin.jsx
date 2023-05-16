@@ -98,8 +98,6 @@ export default function Cuslogin() {
               </div>
               
               
-              
-              
               <div class="form-group">
                 <input
                   type="password"
