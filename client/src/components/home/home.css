@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.temp{
+  color: #1c4587;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to bottom right, #87CEEB, #B0E0E6, #CAE1FF, #FFFFFF);
+}
+
+b{
+  color: black;
+  font-size: larger;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.head{
+  margin-top: 0px;
+  color: #348bc4;
+}
+
+.button {
+  background-color: #2761ac;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px #87CEEB;
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #1c4587;
+}
+
+.profile-button {
+  background-color: #348bc4;
+  box-shadow: 0 0 10px #ffcc99;
+}
+
+.date-button {
+  background-color: #348bc4;
+  box-shadow: 0 0 10px #a6d1cc;
+}
+
+.news-button {
+  background-color: #348bc4;
+  box-shadow: 0 0 10px #f2e6f3;
+}
+
+.milk-button {
+  background-color: #348bc4;
+  box-shadow: 0 0 10px #d9eaf2;
+}
+
+.profile-button:hover {
+  background-color: #c98252;
+}
+
+.date-button:hover {
+  background-color: #3d7676;
+}
+
+.news-button:hover {
+  background-color: #b088c8;
+}
+
+.milk-button:hover {
+  background-color: #72a9d9;
+}
+
+/* .btn{
+  background-position: right center;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px #ff99a8;
+  margin-top: 20px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+} */
+
+.btt {
+  margin: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-4{
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  font-size: 20px;
+  font-weight:bolder;
+  border: 0.2px solid black;
+  border-radius: 20px;
+}
+
+.btn-4:hover{
+  background-position: right center;
+}

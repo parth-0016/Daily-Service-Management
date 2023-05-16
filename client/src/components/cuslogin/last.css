@@ -1,0 +1,151 @@
+body {
+    background-color: #1c4587;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+  }
+  
+  .main {
+    width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .cusupdate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .log-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 0vw 5vh 10vw;
+  }
+  
+  .log-main {
+    width: 530px;
+    background-color: #fff;
+    padding: 1vh 5vw 2vh 0.7vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .signup-content {
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+  .form-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #1c4587;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid #1c4587;
+    background-color: transparent;
+    color: #1c4587;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-bottom: 2px solid #FFD700;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .form-submit {
+    background-color: #1c4587;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-submit:hover {
+    background-color: #FFD700;
+  }
+  
+  a {
+    color: #1c4587;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFD700;
+  }
+  
+
+
+/*  */
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    .signup {
+        padding: 20px;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    .form-input,
+    .form-submit {
+        font-size: 14px;
+    }
+    .form-title {
+        font-size: 20px;
+    }
+}
+
+.spa{
+    color: #1c4587;
+}
+
+@media screen and (max-width: 480px) {
+    .signup {
+        padding: 10px;
+    }
+    .form-group {
+        margin-bottom: 5px;
+    }
+    .form-input,
+    .form-submit {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .form-title {
+        font-size: 16px;
+    }
+}
